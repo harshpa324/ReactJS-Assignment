@@ -1,0 +1,141 @@
+.container {
+    max-width: 95%;
+}
+
+.builder {
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.16), 3px 0 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    position: relative;
+}
+
+.builder .part1 {
+    padding: 30px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.builder img {
+    width: 200px;
+    height: auto;
+}
+
+.builder .part2 {
+    padding: 0px 30px;
+}
+
+.builder .part2 p {
+    font-size: 16px;
+}
+
+.builder .part2 button {
+    text-transform: capitalize;
+    font-size: 16px;
+    outline: none;
+}
+
+.builder .badge {
+    position: absolute;
+    top: -22px;
+    left: 0px;
+    display: inline-block;
+    z-index: 100;
+    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: orange;
+    vertical-align: middle;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.builder .num {
+    padding: 10px;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 15%;
+    left: -17px;
+    z-index: 100;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.builder .badge svg {
+    vertical-align: middle;
+}
+
+.rating {
+    background: #d8effd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 60%;
+    transform: translateX(30%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rating h1,
+.rating p {
+    color: #255280;
+}
+
+.part3 button {
+    width: 80%;
+    transform: translateX(13%);
+    text-transform: capitalize;
+    color: #fff;
+    outline: none;
+    padding: 10px 0px;
+    border-radius: 15px;
+}
+
+.off {
+    background: rgba(168, 168, 168, 0.25) !important;
+    outline: none;
+    font-size: 14px !important;
+    color: #255280;
+}
+
+ul {
+    border-radius: 20px !important;
+    overflow: hidden !important;
+}
+
+.ul1 li {
+    background: rgb(251, 240, 229);
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.ul1 li button {
+    background: #fff !important;
+    height: 30px;
+    border-radius: 10px !important;
+}
+
+.ul2 li {
+    list-style-type: none;
+    opacity: 0.7;
+}
+
+.ul2 li svg {
+    background: #d8effd;
+    color: #255280;
+    vertical-align: middle;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,30 @@
+nav{
+    margin-top: 10px;
+    width: 100%;
+    background: #3a4750;
+    height: auto;
+}
+
+nav ul{    
+    text-align: center;
+}
+
+nav ul li{
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+nav .search{
+    position: relative;
+    overflow: hidden !important;
+    border-radius: 25px !important;
+}
+
+nav .search .searchIcon{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    color: #000;
+}
