@@ -80,8 +80,7 @@
 }
 
 .signup input {
-    width: calc(100% - 120px); 
-    max-width: 400px; 
+    width: full;  
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #ccc;
