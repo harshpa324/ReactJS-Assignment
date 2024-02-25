@@ -86,7 +86,10 @@
     border-radius: 10px;
     border: 1px solid #ccc;
     margin-right: 10px;
+    width: calc(100% - 110px); /* Adjust width */
+    max-width: 300px; /* Limit maximum width */
 }
+
 
 .signup button {
     height: 44px; /* Match input height */
