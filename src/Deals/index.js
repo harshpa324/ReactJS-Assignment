@@ -63,6 +63,7 @@ const Deals = () => {
                         </div>
                         <div className='col-sm-6 signup mt-3 pl-5'>
                             <input type='text' />
+                            <br></br>
                             <Button className='bg-primary'>Sign Up</Button>
                         </div>
                     </div>
